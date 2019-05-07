@@ -7,7 +7,7 @@
 [![](https://img.shields.io/badge/License-Apache_2-brightgreen.svg)](https://github.com/Brook007/PermissionUtil/blob/master/LICENSE)
 [![](https://img.shields.io/badge/Author-Brook007-orange.svg)](https://github.com/Brook007)
 
-Android 权限请求库，一行代码实现权限请求
+Android 权限请求库，一句代码实现权限请求
 
 ## 引入依赖
 ### Gradle方式--适合Android Studio用户
