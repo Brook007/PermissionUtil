@@ -37,8 +37,9 @@ import java.util.List;
 /**
  * @author Brook
  * @time 2017年11月15日
+ * @hide
  */
-public class PermissionActivity extends AppCompatActivity {
+class PermissionActivity extends AppCompatActivity {
 
     private static volatile WeakReference<PermissionUtil.PermissionCallback> sCallback;
 

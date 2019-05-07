@@ -1,4 +1,4 @@
-package com.brook.app.android.permissionutil;
+package com.brook.app.android.supportlibrary.permissionutil;
 
 import android.Manifest;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.brook.app.android.supportlibrary.permissionutil.R;
+import com.brook.app.android.permissionutil.PermissionUtil;
 
 import java.util.List;
 

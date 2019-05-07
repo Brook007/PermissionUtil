@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @auther Brook
+ * @author Brook
  * @time 2017年11月15日 9:37
  */
 public class PermissionUtil {
@@ -77,10 +77,10 @@ public class PermissionUtil {
         List<String> requestPermission = new ArrayList<>();
 
         if (permission != null) {
-            for (int i = 0; i < permission.length; i++) {
-                if (ContextCompat.checkSelfPermission(context, permission[i])
+            for (String s : permission) {
+                if (ContextCompat.checkSelfPermission(context, s)
                         != PackageManager.PERMISSION_GRANTED) {
-                    requestPermission.add(permission[i]);
+                    requestPermission.add(s);
                 }
             }
         }
